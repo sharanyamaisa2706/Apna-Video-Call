@@ -13,7 +13,7 @@ import ChatIcon from "@mui/icons-material/Chat";
 import { useNavigate } from 'react-router-dom';
 import styles from "../style/VideoComponent.module.css";
 
-const server_url = "http://localhost:8000";
+const server_url = server;
 
 var connections = {};
 
