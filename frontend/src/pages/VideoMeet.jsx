@@ -12,6 +12,8 @@ import StopScreenShareIcon from "@mui/icons-material/StopScreenShare";
 import ChatIcon from "@mui/icons-material/Chat";
 import { useNavigate } from 'react-router-dom';
 import styles from "../style/VideoComponent.module.css";
+import server from "../environment.js";
+
 
 const server_url = server;
 
