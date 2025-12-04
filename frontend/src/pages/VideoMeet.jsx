@@ -14,9 +14,7 @@ import { useNavigate } from 'react-router-dom';
 import styles from "../style/VideoComponent.module.css";
 import server from "../environment.js";
 
-
 const server_url = server;
-
 var connections = {};
 
 const peerConfigConnections = {
